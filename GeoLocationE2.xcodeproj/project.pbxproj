@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2201A2792C2CC2F9002CD17F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201A2782C2CC2F9002CD17F /* LocationManager.swift */; };
+		2201A27B2C2CE1D4002CD17F /* LocationRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201A27A2C2CE1D4002CD17F /* LocationRequestView.swift */; };
 		221ECA952C23B0F700C01EBC /* GeoLocationE2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221ECA942C23B0F700C01EBC /* GeoLocationE2App.swift */; };
 		221ECA972C23B0F700C01EBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221ECA962C23B0F700C01EBC /* ContentView.swift */; };
 		221ECA992C23B0F700C01EBC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221ECA982C23B0F700C01EBC /* Item.swift */; };
 		221ECA9B2C23B0F800C01EBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221ECA9A2C23B0F800C01EBC /* Assets.xcassets */; };
 		221ECA9E2C23B0F800C01EBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221ECA9D2C23B0F800C01EBC /* Preview Assets.xcassets */; };
+		2252E8162C24B4F4007394D6 /* LocationDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2252E8152C24B4F4007394D6 /* LocationDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2201A2782C2CC2F9002CD17F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2201A27A2C2CE1D4002CD17F /* LocationRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestView.swift; sourceTree = "<group>"; };
 		221ECA912C23B0F700C01EBC /* GeoLocationE2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoLocationE2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		221ECA942C23B0F700C01EBC /* GeoLocationE2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocationE2App.swift; sourceTree = "<group>"; };
 		221ECA962C23B0F700C01EBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		221ECA982C23B0F700C01EBC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		221ECA9A2C23B0F800C01EBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		221ECA9D2C23B0F800C01EBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2252E8152C24B4F4007394D6 /* LocationDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				221ECA982C23B0F700C01EBC /* Item.swift */,
 				221ECA9A2C23B0F800C01EBC /* Assets.xcassets */,
 				221ECA9C2C23B0F800C01EBC /* Preview Content */,
+				2252E8152C24B4F4007394D6 /* LocationDetailsView.swift */,
+				2201A2782C2CC2F9002CD17F /* LocationManager.swift */,
+				2201A27A2C2CE1D4002CD17F /* LocationRequestView.swift */,
 			);
 			path = GeoLocationE2;
 			sourceTree = "<group>";
@@ -141,7 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				221ECA972C23B0F700C01EBC /* ContentView.swift in Sources */,
+				2201A27B2C2CE1D4002CD17F /* LocationRequestView.swift in Sources */,
 				221ECA992C23B0F700C01EBC /* Item.swift in Sources */,
+				2201A2792C2CC2F9002CD17F /* LocationManager.swift in Sources */,
+				2252E8162C24B4F4007394D6 /* LocationDetailsView.swift in Sources */,
 				221ECA952C23B0F700C01EBC /* GeoLocationE2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +290,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GeoLocationE2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We Request Your Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We Request Your Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -306,6 +320,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GeoLocationE2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We Request Your Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We Request Your Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
